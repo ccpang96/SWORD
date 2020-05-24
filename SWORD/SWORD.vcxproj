@@ -115,9 +115,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
-  </ItemGroup>
-  <ItemGroup>
     <ClInclude Include="m_03.h" />
     <ClInclude Include="m_04.h" />
     <ClInclude Include="m_05.h" />
@@ -141,6 +138,9 @@
     <ClInclude Include="判断一颗树是否是平衡二叉树.h" />
     <ClInclude Include="将字符串转换为数字.h" />
     <ClInclude Include="数组中出现两个出现1次的数.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="4.二维数组的查找.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
