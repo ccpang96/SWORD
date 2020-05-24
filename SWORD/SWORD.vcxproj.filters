@@ -88,5 +88,8 @@
     <ClCompile Include="5.替换空格.cpp">
       <Filter>剑指offer</Filter>
     </ClCompile>
+    <ClCompile Include="6.从尾到头打印链表.cpp">
+      <Filter>剑指offer</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
