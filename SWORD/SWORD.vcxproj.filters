@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="m_03.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="m_04.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="m_05.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="m_06.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="m_07.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="m_11.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="m_12.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="m_13.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="m_14.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="m_15.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="m_16.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="m_17.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="m_18.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="m_20.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="m_36.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="m_38.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="m_39.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="m_43.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="m_51.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="判断一颗树是否是平衡二叉树.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="m_53.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="将字符串转换为数字.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="数组中出现两个出现1次的数.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
