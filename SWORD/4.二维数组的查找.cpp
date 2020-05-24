@@ -75,30 +75,30 @@ public:
 /*@time:      2020/5/24 20:27
 /*@author:    ccpang
 /************************************************************************/
-int main() {
-	int m, n;
-	char a;			//用于读取换行符
-	while (2 == scanf("%d %d\n", &m, &n)) {
-		vector<vector<int>>grid(m, vector<int>(n, 0));
-		for (int i = 0; i < m; i++) {
-			for (int j = 0; j <= n; j++) {
-				if (j == n)
-					scanf("%c", &a);			//读取换行符
-				else
-					scanf("%d,", &grid[i][j]);
-			}
-		}
-
-		//在这里执行Solution算法
-		int target = 7;
-		bool found = Solution().Find(target, grid);
-		if (found)
-			cout << "找到了" << target << endl;
-		else
-			cout << "没找到" << target << endl;
-	}
-	system("pause");
-	return 0;
-}
+//int main() {
+//	int m, n;
+//	char a;			//用于读取换行符
+//	while (2 == scanf("%d %d\n", &m, &n)) {
+//		vector<vector<int>>grid(m, vector<int>(n, 0));
+//		for (int i = 0; i < m; i++) {
+//			for (int j = 0; j <= n; j++) {
+//				if (j == n)
+//					scanf("%c", &a);			//读取换行符
+//				else
+//					scanf("%d,", &grid[i][j]);
+//			}
+//		}
+//
+//		//在这里执行Solution算法
+//		int target = 7;
+//		bool found = Solution().Find(target, grid);
+//		if (found)
+//			cout << "找到了" << target << endl;
+//		else
+//			cout << "没找到" << target << endl;
+//	}
+//	system("pause");
+//	return 0;
+//}
 
 

@@ -20,9 +20,6 @@
     <ClInclude Include="m_04.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="m_05.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="m_06.h">
       <Filter>头文件</Filter>
     </ClInclude>
@@ -86,6 +83,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="4.二维数组的查找.cpp">
+      <Filter>剑指offer</Filter>
+    </ClCompile>
+    <ClCompile Include="5.替换空格.cpp">
       <Filter>剑指offer</Filter>
     </ClCompile>
   </ItemGroup>

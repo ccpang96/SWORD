@@ -117,7 +117,6 @@
   <ItemGroup>
     <ClInclude Include="m_03.h" />
     <ClInclude Include="m_04.h" />
-    <ClInclude Include="m_05.h" />
     <ClInclude Include="m_06.h" />
     <ClInclude Include="m_07.h" />
     <ClInclude Include="m_11.h" />
@@ -141,6 +140,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="4.二维数组的查找.cpp" />
+    <ClCompile Include="5.替换空格.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
