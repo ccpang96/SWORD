@@ -139,12 +139,25 @@
     <ClInclude Include="数组中出现两个出现1次的数.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="剑指offer\10.2.青蛙跳n级台阶.cpp" />
+    <ClCompile Include="剑指offer\10.斐波那契数列.cpp" />
     <ClCompile Include="剑指offer\11旋转数字最小的数字.cpp" />
+    <ClCompile Include="剑指offer\15.二进制中1的个数.cpp" />
+    <ClCompile Include="剑指offer\16.数值的整数次方.cpp" />
+    <ClCompile Include="剑指offer\21.调整数组顺序使奇数位于偶数前面.cpp" />
+    <ClCompile Include="剑指offer\22.链表的倒数第k个节点.cpp" />
+    <ClCompile Include="剑指offer\24.反转链表.cpp" />
+    <ClCompile Include="剑指offer\25.合并两个排序的链表.cpp" />
+    <ClCompile Include="剑指offer\26.树的子结构.cpp" />
     <ClCompile Include="剑指offer\4.二维数组的查找.cpp" />
     <ClCompile Include="剑指offer\5.替换空格.cpp" />
     <ClCompile Include="剑指offer\6.从尾到头打印链表.cpp" />
     <ClCompile Include="剑指offer\7.重建二叉树.cpp" />
     <ClCompile Include="剑指offer\9.用两个栈来实现一个队列.cpp" />
+    <ClCompile Include="剑指offer\10.3.矩形覆盖.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="剑指offer\10.1.青蛙跳台阶.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
