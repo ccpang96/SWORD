@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -139,9 +139,12 @@
     <ClInclude Include="数组中出现两个出现1次的数.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="4.二维数组的查找.cpp" />
-    <ClCompile Include="5.替换空格.cpp" />
-    <ClCompile Include="6.从尾到头打印链表.cpp" />
+    <ClCompile Include="剑指offer\11旋转数字最小的数字.cpp" />
+    <ClCompile Include="剑指offer\4.二维数组的查找.cpp" />
+    <ClCompile Include="剑指offer\5.替换空格.cpp" />
+    <ClCompile Include="剑指offer\6.从尾到头打印链表.cpp" />
+    <ClCompile Include="剑指offer\7.重建二叉树.cpp" />
+    <ClCompile Include="剑指offer\9.用两个栈来实现一个队列.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
