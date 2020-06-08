@@ -66,10 +66,10 @@ public:
  
 
 
-int main() {
-
-	double result = Solution().Power(0.0, -3);
-	cout << result << endl;
-	system("pause");
-	return 0;
-}
+//int main() {
+//
+//	double result = Solution().Power(0.0, -3);
+//	cout << result << endl;
+//	system("pause");
+//	return 0;
+//}

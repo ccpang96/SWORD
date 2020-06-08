@@ -1,6 +1,6 @@
 /************************************************************************/
-/*@File Name         : 26.树的子结构.cpp
-/*@Created Date      : 2020/6/8 16:00
+/*@File Name         : 32.从上到下打印二叉树.cpp
+/*@Created Date      : 2020/6/8 19:11
 /*@Author            : ccpang(ccpang96@163.com)
 /*@blog              : www.cnblogs.com/ccpang
 /*@Description       :
@@ -16,7 +16,6 @@
 #include<stack>
 using namespace std;
 
- 
 struct TreeNode {
 	int val;
 	TreeNode *left;
@@ -25,19 +24,26 @@ struct TreeNode {
 };
 
 
+//二叉树的层次遍历
 class Solution {
 public:
-	bool HasSubtree(TreeNode* s, TreeNode *t) {
-		if (t == nullptr) return false;
-		if (s == nullptr) return false;
-		return isSameTree(s, t) || HasSubtree(s->left, t) || HasSubtree(s->right, t);
-	}
-	//判断两个子树相等是：t不一定要全部和s相等，也可以是s中的一部分
-	bool isSameTree(TreeNode* s, TreeNode* t) {
-		if (t == nullptr)
-			return true;
-		if (s == nullptr || s->val != t->val)
-			return false;
-		return isSameTree(s->left, t->left) && isSameTree(s->right, t->right);
+	vector<int> PrintFromTopToBottom(TreeNode* root) {
+		vector<int>result;
+		if (root == nullptr)
+			return result;
+
+		queue<TreeNode*>q;
+		q.push(root);
+		while (!q.empty()) {
+			TreeNode* node = q.front();
+			q.pop();
+			if (node != nullptr) {
+				result.push_back(node->val);
+				q.push(node->left);
+				q.push(node->right);
+			}
+		}
+		return result;
 	}
 };
+

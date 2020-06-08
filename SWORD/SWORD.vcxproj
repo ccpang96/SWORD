@@ -149,6 +149,14 @@
     <ClCompile Include="剑指offer\24.反转链表.cpp" />
     <ClCompile Include="剑指offer\25.合并两个排序的链表.cpp" />
     <ClCompile Include="剑指offer\26.树的子结构.cpp" />
+    <ClCompile Include="剑指offer\27.二叉树的镜像.cpp" />
+    <ClCompile Include="剑指offer\29.顺时针打印矩阵.cpp" />
+    <ClCompile Include="剑指offer\30.包含min函数的栈.cpp" />
+    <ClCompile Include="剑指offer\31.栈的压入弹出顺序-hard.cpp" />
+    <ClCompile Include="剑指offer\32.从上到下打印二叉树.cpp" />
+    <ClCompile Include="剑指offer\33.二叉树的后序遍历序列-hard.cpp" />
+    <ClCompile Include="剑指offer\34.二叉树的和为某一值的路径-hard.cpp" />
+    <ClCompile Include="剑指offer\35.复杂链表的复制-hard.cpp" />
     <ClCompile Include="剑指offer\4.二维数组的查找.cpp" />
     <ClCompile Include="剑指offer\5.替换空格.cpp" />
     <ClCompile Include="剑指offer\6.从尾到头打印链表.cpp" />
