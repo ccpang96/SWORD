@@ -156,7 +156,52 @@
     <ClCompile Include="剑指offer\39.数组中出现超过一半的数字-hard.cpp">
       <Filter>剑指offer</Filter>
     </ClCompile>
-    <ClCompile Include="剑指offer\40.最小的K个数.cpp">
+    <ClCompile Include="剑指offer\42.连续子数组的最大和.cpp">
+      <Filter>剑指offer</Filter>
+    </ClCompile>
+    <ClCompile Include="剑指offer\40.最小的K个数-hard.cpp">
+      <Filter>剑指offer</Filter>
+    </ClCompile>
+    <ClCompile Include="剑指offer\43.整数中1出现的次数-hard.cpp">
+      <Filter>剑指offer</Filter>
+    </ClCompile>
+    <ClCompile Include="剑指offer\45.把数组排成最小的数-hard.cpp">
+      <Filter>剑指offer</Filter>
+    </ClCompile>
+    <ClCompile Include="剑指offer\49.丑数-hard.cpp">
+      <Filter>剑指offer</Filter>
+    </ClCompile>
+    <ClCompile Include="剑指offer\14.剪绳子.cpp">
+      <Filter>剑指offer</Filter>
+    </ClCompile>
+    <ClCompile Include="剑指offer\13.机器人的运动范围.cpp">
+      <Filter>剑指offer</Filter>
+    </ClCompile>
+    <ClCompile Include="剑指offer\12.矩阵中的路径.cpp">
+      <Filter>剑指offer</Filter>
+    </ClCompile>
+    <ClCompile Include="剑指offer\59.队列的最大值-hard.cpp">
+      <Filter>剑指offer</Filter>
+    </ClCompile>
+    <ClCompile Include="剑指offer\41.数据流中的中位数.cpp">
+      <Filter>剑指offer</Filter>
+    </ClCompile>
+    <ClCompile Include="剑指offer\28.对称的二叉树.cpp">
+      <Filter>剑指offer</Filter>
+    </ClCompile>
+    <ClCompile Include="剑指offer\32.2 把二叉树打印成多行.cpp">
+      <Filter>剑指offer</Filter>
+    </ClCompile>
+    <ClCompile Include="剑指offer\32.3.按之字形打印二叉树-hard.cpp">
+      <Filter>剑指offer</Filter>
+    </ClCompile>
+    <ClCompile Include="剑指offer\8.二叉树的下一个节点-hard.cpp">
+      <Filter>剑指offer</Filter>
+    </ClCompile>
+    <ClCompile Include="剑指offer\18.2.删除链表中的重复节点.cpp">
+      <Filter>剑指offer</Filter>
+    </ClCompile>
+    <ClCompile Include="剑指offer\23.链表中环的入口节点.cpp">
       <Filter>剑指offer</Filter>
     </ClCompile>
   </ItemGroup>

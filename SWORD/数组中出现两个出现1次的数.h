@@ -59,11 +59,3 @@ public:
 };
 
 
-int main() {
-
-	vector<int>v1{ 1,2,3,4,5,1,2,3,4,7 };
-	vector<int> result = Solution_2().findTwoValue(v1);
-	cout << result[0] << "         " << result[1] << endl;
-	system("pause");
-	return 0;
-}

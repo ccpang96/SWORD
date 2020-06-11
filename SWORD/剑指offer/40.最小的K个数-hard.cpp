@@ -67,6 +67,8 @@ public:
 		return heap;
 	}
 	
+
+
 	//构建的大小为input.size()的堆
 	vector<int>GetLeastNumbers(vector<int>input, int k) {
 
@@ -132,20 +134,20 @@ vector<int> generateRandomArray(int n, int range_l, int range_r) {
 
 
 
-int main() {
-
-
-	clock_t startTime = clock();
-	vector<int> input = generateRandomArray(1e+7, 1, 1e+7);
-	vector<int>result = Solution().GetLeastNumbers_Solution(input, 40);
-
-	//vector<int>result = Solution().GetLeastNumbers(input, 40);
-
-	for (auto &m : result)
-		cout << m << endl;
-
-	clock_t endTime = clock();
-	cout << "运行时间：" << double(endTime - startTime) / CLOCKS_PER_SEC * 1000 << "毫秒" << endl;
-	system("pause");
-	return 0;
-}
+//int main() {
+//
+//
+//	clock_t startTime = clock();
+//	vector<int> input = generateRandomArray(1e+7, 1, 1e+7);
+//	vector<int>result = Solution().GetLeastNumbers_Solution(input, 40);
+//
+//	//vector<int>result = Solution().GetLeastNumbers(input, 40);
+//
+//	for (auto &m : result)
+//		cout << m << endl;
+//
+//	clock_t endTime = clock();
+//	cout << "运行时间：" << double(endTime - startTime) / CLOCKS_PER_SEC * 1000 << "毫秒" << endl;
+//	system("pause");
+//	return 0;
+//}

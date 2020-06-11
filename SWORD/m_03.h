@@ -80,7 +80,8 @@ public:
 	}
 };
 /*
-int main() {
+int 
+() {
 
 	string line;
 	while (getline(cin, line)) {
